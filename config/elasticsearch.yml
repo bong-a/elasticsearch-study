@@ -1,0 +1,7 @@
+cluster.name: "docker-cluster"
+network.host: 0.0.0.0
+
+# add
+node.name: javacafe-node1
+path.repo: ["/usr/share/elasticsearch/repo/search_example","/usr/share/elasticsearch/repo/agg_example"]
+
