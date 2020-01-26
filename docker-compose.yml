@@ -2,7 +2,7 @@ version: '3'
 
 services:
   elasticsearch:
-    image: elasticsearch:custom
+    image: docker.pkg.github.com/bong-a/elasticsearch-study/elasticsearch:0.0.1
     volumes:
     - $PWD/config:/usr/share/elasticsearch/config
     - $PWD/repo:/usr/share/elasticsearch/repo # snapshot repo
